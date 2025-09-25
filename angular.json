@@ -16,7 +16,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-basic",
+            "outputPath": "dist/Angular",
+            "baseHref": "/Angular/",
+            "deployUrl": "/Angular/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
